@@ -1,6 +1,6 @@
 local function matches(msg)
 local text = msg.content_.text_
-	if matches[1] == 'start' then
+	if matches == 'start' then
   local photo = download_to_file("http://www.pmo.iq/imege/8-10-20141.jpg",'keko.png')  
    api.sendPhoto(msg.chat.id, photo, "مرحبا بك عزيزي المواطن الكريم ❤️\nفي بوت التحدث مع(الدكتور حيدر العبادي)\nتحدث بكل صراحة معه 😂 \n#تحيه_خاصة_الى_الشعب_العراقي❤️", reply_to_message_id)
 	  end

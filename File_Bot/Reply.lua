@@ -88,13 +88,6 @@ send(msg.chat_id_,msg.id_, ' حضرلك الخير يارب🌚♥ ')
 return false
 end
 
-if($text == "هلا والله"){
-bot('sendaudio',[
-'chat_id'=>$chat_id, 
-'audio'=>"https://t.me/nnnhdjfr/239"
-]);
-}
-
 if text == 'تيست' then 
 send(msg.chat_id_,msg.id_, ' البوت شغال ') 
 return false

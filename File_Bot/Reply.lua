@@ -81,8 +81,8 @@ end
 
 
 if text == 'هلا والله' then 
-sendAudio(msg.chat_id_,msg.id_,audio) 
 audio = 'https://t.me/d7kaya0/944'
+sendAudio(msg.chat_id_,msg.id_,audio) 
 end
 
 if text == 'حاضر' then 

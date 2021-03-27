@@ -11499,12 +11499,12 @@ send(msg.chat_id_, msg.id_,'['..LEADER_Msg[math.random(#LEADER_Msg)]..']')
 return false
 end
 end
-if text and text ~="صراحه" and database:get(bot_id..":"..msg.sender_user_id_..":rkko_Bots"..msg.chat_id_) == "sendrjoe" then
+if text and text ~="صراحه" and database:get(bot_id..":"..msg.sender_user_id_..":rkko_Bots"..msg.chat_id_) == "sendrkkoe" then
 numj = {"اي الكدب دا 😒","فعلا بتتكلم صح🤗","يجدع قول كلام غير دا😹","حصل اوماال😹💔","طب عيني ف عينك كدا 👀","انت صح🙂♥",};
 sendnuj = numj[math.random(#numj)]
 xl = ' ※ '..text..' ★ \n '..sendnuj..'%'
 send(msg.chat_id_, msg.id_,xl) 
-database:del(bot_id..":"..msg.sender_user_id_..":rjo_Bots"..msg.chat_id_)
+database:del(bot_id..":"..msg.sender_user_id_..":rkko_Bots"..msg.chat_id_)
 end
 if text == "نسبه الانوثه" or text == "نسبه انوثه" and msg.reply_to_message_id_ ~= 0 and Addictive(msg) then
 if not database:get(bot_id..'Cick:ano'..msg.chat_id_) then
